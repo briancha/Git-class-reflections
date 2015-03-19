@@ -3,3 +3,18 @@ You initialize git in that specific folder. It is what allows git version contro
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is between the working directory and repository. It offers an area to add files to, so multiple files can be in the same commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Add only files related to a specific logical change to the staging area. Be sure to commit that change before adding any unrelated changes.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When you have different versions of the same file, i.e. different languages, and you need to keep both. Branches would also be helpful for adding new features or fixing bugs because it doesn't change the master branch.
+
+How do the diagrams help you visualize the branch structure?
+The diagrams help me see how the commits are related to each other.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The two branches go back to being one branch. Diagram: The branches literally become merged.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git's automatic merging removes a lot of the work you would need to do if you were merging manually, but it also cannot judge which version is better and cannot automate all steps.
